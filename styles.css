@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8f3;
+  color: #2b1b16;
+}
+
+.navbar {
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #ead8cf;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #2b1b16;
+  font-weight: 500;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background: linear-gradient(
+    to right,
+    #fff8f3,
+    #f4d7ca
+  );
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #a66a4c;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 58px;
+  line-height: 1.05;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 24px;
+  margin-right: 12px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.primary {
+  background: #2b1b16;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #2b1b16;
+  color: #2b1b16;
+}
+
+.brand-section {
+  padding: 70px 40px;
+  text-align: center;
+  background: white;
+}
+
+.brand-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.brand-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.shop-hero {
+  padding: 80px 40px;
+  text-align: center;
+  background: linear-gradient(to right, #fff8f3, #f4d7ca);
+}
+
+.shop-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.shop-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.products-grid {
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  background: white;
+}
+
+.product-card {
+  border: 1px solid #ead8cf;
+  padding: 24px;
+  border-radius: 24px;
+  background: #fff8f3;
+}
+
+.product-image {
+  height: 260px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f4d7ca, #d6a77a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2b1b16;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.product-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.product-card p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.product-card span {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.product-card button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  background: #2b1b16;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filters{
+display:flex;
+justify-content:center;
+gap:15px;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.filters button{
+padding:12px 25px;
+border:none;
+background:#2b1b16;
+color:white;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.cart-section {
+  padding: 50px 40px;
+  background: #fff8f3;
+  border-top: 1px solid #ead8cf;
+}
+
+.cart-section h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid #ead8cf;
+}
+
+.checkout-btn {
+  margin-top: 25px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  background: #2b1b16;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.remove-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  background: #a66a4c;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.coupon-section{
+display:flex;
+gap:10px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.coupon-section input{
+padding:12px;
+border:1px solid #ccc;
+border-radius:20px;
+width:250px;
+}
+
+.coupon-section button{
+padding:12px 20px;
+border:none;
+background:#2b1b16;
+color:white;
+border-radius:20px;
+cursor:pointer;
+}
